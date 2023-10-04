@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: relative;
+}
+body {
+  margin-top: 90px;
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+html {
+  font-size: 80.5%;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 20px;
+}
+
+.logo {
+  padding: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 2rem;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.main {
+  height: 50px;
+  display: flex;
+  position: relative;
+  top: 40px;
+  margin-bottom: 5px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.value {
+  font-family: "Press Start 2P", sans-serif;
+  width: 100%;
+  max-width: 80px;
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.btn {
+  font-family: "Press Start 2P", sans-serif;
+  height: 50px;
+  width: 120px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
+.score-section {
+  position: relative;
+  top: 180px;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: large;
+  margin: auto;
+}
+
+.message {
+  position: relative;
+  top: 40px;
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.try-again {
+  display: flex;
+  position: relative;
+  top: 250px;
+  height: 50px;
+  justify-content: center;
+}
+#tr-btn {
+  font-family: "Press Start 2P", sans-serif;
+  height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
