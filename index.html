@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Guess the Number</h1>
+    <div class="logo">?</div>
+
+    <main>
+      <div class="main">
+        <div>
+          <input type="number" class="value" placeholder="21" />
+        </div>
+
+        <input type="button" value="Check" class="btn" />
+      </div>
+      <p class="message">You guessed higher value!</p>
+    </main>
+
+    <div class="score-section">
+      <div>
+        <p>Score : <span class="score">20</span></p>
+      </div>
+      <div>
+        <p>High Score : <span class="highscore">0</span></p>
+      </div>
+    </div>
+
+    <div class="try-again">
+      <button type="reset" id="tr-btn">Try Again!</button>
+    </div>
+  </body>
+</html>
