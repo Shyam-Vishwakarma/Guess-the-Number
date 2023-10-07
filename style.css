@@ -76,7 +76,7 @@ h1 {
 
 .score-section {
   position: relative;
-  top: 180px;
+  top: 9rem !important;
   width: 80%;
   max-width: 600px;
   margin-top: 30px;
@@ -111,8 +111,9 @@ h1 {
 
 #tr-btn {
   font-family: 'Press Start 2P', sans-serif;
-  height: 55px;
-  font-size: 1rem;
+  height: 3rem;
+  width: 10rem;
+  font-size: 0.8rem;
   text-align: center;
   padding: 10px;
 }
@@ -155,6 +156,6 @@ h1 {
   }
 
   .try-again {
-    top: 200px;
+    top: 12rem !important;
   }
 }
