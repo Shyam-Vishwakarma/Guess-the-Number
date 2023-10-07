@@ -24,6 +24,7 @@ const lost = () => {
 const guessed = () => {
   document.querySelector('.message').textContent =
     'Congratulations! You guessed it right.';
+  document.querySelector('body').style.backgroundColor = '#60b347';
 };
 const updateScore = score => {
   document.querySelector('.score').textContent = score;
@@ -52,6 +53,8 @@ const tryAgain = () => {
   resetValue();
   document.querySelector('.message').textContent =
     'Guess the number between 1 to 100!';
+  const secretNumber = Math.trunc(Math.random() * 100 + 1);
+  document.querySelector('body').style.backgroundColor = '#222';
 };
 let score = 20;
 let highScore = 0;
