@@ -53,12 +53,12 @@ const tryAgain = () => {
   resetValue();
   document.querySelector('.message').textContent =
     'Guess the number between 1 to 100!';
-  const secretNumber = Math.trunc(Math.random() * 100 + 1);
+  secretNumber = Math.trunc(Math.random() * 100 + 1);
   document.querySelector('body').style.backgroundColor = '#222';
 };
 let score = 20;
 let highScore = 0;
-const secretNumber = Math.trunc(Math.random() * 100 + 1);
+let secretNumber = Math.trunc(Math.random() * 100 + 1);
 const gameAlgorithm = () => {
   const guessedNumber = Number(document.querySelector('.value').value);
   //   console.log('Guessed Number:', guessedNumber);
