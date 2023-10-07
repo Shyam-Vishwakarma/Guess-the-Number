@@ -5,31 +5,33 @@
   padding: 0;
   box-sizing: relative;
 }
+
 body {
-  margin-top: 20px;
+  margin-top: 6rem;
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
-  /* background-color: #60b347; */
 }
+
 html {
   font-size: 80.5%;
   box-sizing: border-box;
 }
+
 h1 {
   text-align: center;
-  font-size: 3rem;
-  margin-top: 0px;
+  font-size: 1.8rem !important;
+  margin-top: 0;
 }
 
 .logo {
   padding: 8px;
   background-color: #ffffff;
   color: #000000;
-  font-size: 4rem;
+  font-size: 3rem !important;
   display: flex;
-  height: 7rem;
-  width: 7rem;
+  height: 4rem !important;
+  width: 4rem !important;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -40,7 +42,7 @@ h1 {
   height: 100px;
   display: flex;
   position: relative;
-  top: 40px;
+  top: 5rem !important;
   margin-bottom: 5px;
   flex-direction: row;
   justify-content: center;
@@ -55,7 +57,6 @@ h1 {
   max-width: 120px;
   height: 45px;
   padding: 2.6rem;
-
   border-color: #ffffff;
   border-width: 0.4rem;
   font-size: 4rem;
@@ -76,23 +77,28 @@ h1 {
 .score-section {
   position: relative;
   top: 180px;
-  width: 100%;
+  width: 80%;
   max-width: 600px;
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
   margin: auto;
 }
 
 .message {
   position: relative;
-  top: 65px;
+  top: 6rem !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
   margin: 0;
   text-align: center;
   font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 .try-again {
@@ -102,10 +108,53 @@ h1 {
   height: 50px;
   justify-content: center;
 }
+
 #tr-btn {
   font-family: 'Press Start 2P', sans-serif;
   height: 55px;
   font-size: 1rem;
   text-align: center;
   padding: 10px;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    font-size: 3rem;
+    height: 5rem;
+    width: 5rem;
+    margin-top: 20px;
+  }
+
+  .main {
+    top: 20px;
+  }
+
+  .value {
+    height: 35px;
+    padding: 2rem;
+    font-size: 3rem;
+  }
+
+  .btn {
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .score-section {
+    top: 130px;
+  }
+
+  .message {
+    top: 45px;
+    font-size: 1.1rem;
+  }
+
+  .try-again {
+    top: 200px;
+  }
 }
